@@ -1,0 +1,115 @@
+.body {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    position: relative;
+}
+.header {
+    z-index: 999;
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.header__top {
+    height: 50px;
+    font-size: 1.6rem;
+    justify-content: space-between;
+}
+.header__top-left {
+    background-color: var(--primary-color-1);
+}
+
+.header__top-left ul {
+    padding: 0;
+    
+}
+.header__top-left ul li {
+    display: block;
+    
+}
+.header__top-left ul li a {
+    padding: 12px 24px;
+    color: var(--white-color);
+}
+
+.header__top-left ul li a :hover {
+    color: var(--white-color);
+}
+.header__top-right {
+    padding: 12px 24px;
+}
+.top-right-search {
+    margin: 0 8px;
+}
+.top-right-search-icon {
+    padding: 4px;
+    color: var(--text-color);
+    font-size: 1.6rem;
+}
+.header__main {
+    margin: 24px 0 0 0;
+}
+.header__main .menu {
+
+}
+.header__main .menu ul {
+
+}
+.header__main .menu ul li {
+
+}
+.header__main .menu ul li a  {
+    padding: 12px 24px;
+    color: var(--text-color);
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.header__main .menu-logo {
+
+}
+
+.header__main .menu-logo img {
+    width: 100px;
+}
+
+.header__bottom {
+
+}
+.header__bottom .login{
+    padding: 12px 24px;
+}
+.header__bottom .login a {
+    color: var(--primary-color-1);
+    font-size: 1.6rem;
+}
+
+.header__bottom i{
+    font-size: 1.6rem;
+    margin: 4px 8px;
+}
+.header__bottom  .cart{
+    padding: 12px 24px;
+}
+.header__bottom  .cart a {
+    color: var(--primary-color-1);
+    font-size: 1.6rem;
+}
+
+.main {
+    /* margin-top:var(--main-margin); */
+}
+
+.main .banner {
+    padding: 24px 48px;
+}
+
+.main .section {
+    margin: 16px 24px;
+}
+.main .section .section-title {
+    color: var(--primary-color-1);
+    text-transform: uppercase;
+}

@@ -1,0 +1,33 @@
+:root {
+    --primary-color: #0C720C;
+    --primary-color-1: #0F870F;
+    --primary-color-2: #3ADF00;
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color: #333;
+    --border-color: #dbdbdb;
+    --star-gold-color:#ffce3d;
+    --header-height:180px;
+    --navbar-height:34px;
+    --main-margin:calc(var(--header-height) + 16px);
+}
+* {
+    box-sizing: inherit;
+}
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Roboto',sans-serif ;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+a {
+    display: block;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
