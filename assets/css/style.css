@@ -135,8 +135,28 @@
 
 }
 
+.product-link {
+    margin-right: 8px;
+    display: block;
+    overflow: hidden;
+    position: relative;
+    transform-origin: center;
+    transition: all linear 0.7s;
+    will-change: transform;
+}
+
+.product-img {
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    padding-top: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
 .category img, .product img {
     width: 100%;
+    height: 100%;
     margin-bottom: 12px;
 }
 
@@ -149,6 +169,10 @@
 }
 .product-price {
     font-size: 1.6rem;
+}
+
+.product-category {
+    margin-top: 16px;
 }
 
 .blog {
@@ -167,9 +191,8 @@
     padding: 8px 0;
     width: 2%;
 }
-
 .footer {
-    margin: 72px 0;
+    margin: 72px 0 0 0;
     padding: 12px 24px;
     background: var(--primary-color-1);
 }
@@ -199,5 +222,62 @@
 
 .footer__right {
     padding: 12px 24px;
+}
+
+
+/* contact.html css */
+
+.contact {
+    margin: 18px 12px;
+}
+
+.contact__left {
+    font-size: 1.6rem;
+}
+.contact__left h2 {
+    margin: 24px; 
+}
+
+.btn-map {
+    padding: 8px 24px;
+    margin: 18px 12px;
+    background-color: var(--primary-color-2);
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1.6rem;
+}
+
+.contact__right {
+    margin: 24px 12px;
+}
+
+.contact-form input,textarea {
+    font-size: 1.6rem;
+}
+
+
+/* cay canh html css */
+.menu-left {
+    margin: 24px 18px;
+}
+.menu-left__title {
+    margin-left: 26px;
+}
+.menu-left__list {
+    margin: 8px;
+    padding: 8px;
+}
+
+.menu-left__item {
+    
+}
+
+.menu-left__item-link {
+    font-size: 1.6rem;
+    color: var(--text-color);
+    padding: 8px 12px;
+}
+.menu-right {
+    margin: 24px 18px;
 }
 
