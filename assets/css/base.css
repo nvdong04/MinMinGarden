@@ -25,9 +25,5 @@ ul {
     list-style: none;
 }
 a {
-    display: block;
-    text-decoration: none;
-}
-a:hover {
     text-decoration: none;
 }

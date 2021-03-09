@@ -30,6 +30,7 @@
     
 }
 .header__top-left ul li a {
+    display: block;
     padding: 12px 24px;
     color: var(--white-color);
 }
@@ -280,4 +281,78 @@
 .menu-right {
     margin: 24px 18px;
 }
+
+
+/* register html and login */
+.register, .login-wrap {
+    margin: 24px 0;
+}
+
+.register h1 {
+
+}
+
+.form-wrap form input {
+    margin: 16px 0;
+    padding: 16px 64px;
+    font-size: 1.6rem;
+    color: var(--text-color);
+    text-align: center;
+    background-color: rgb(241, 240, 240);
+    outline: none;
+    border-radius: 5px;
+}
+
+.login__more div{
+    font-size: 1.4rem;
+    color: var(--text-color);
+}
+
+.login__more-link {
+    cursor: pointer;
+    text-decoration: none;
+    font-style: italic;
+    color: var(--text-color);
+}
+
+.login__social {
+    margin-top: 36px;
+}
+
+.login__social-item {
+    position: relative;
+    border: 1px solid #333;
+    padding: 8px 24px;
+    border-radius: 24px;
+    margin: 16px 24px;
+    font-size: 1.2rem;
+    font-style: italic;
+}
+
+.login__social-item a {
+    margin-left: 42px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.login__social-facebook i {
+    left: -1px;
+    top: 0;
+    position: absolute;
+    font-size:3.4rem;
+    color: #0084FF;
+}
+
+.login__social-gmail i {
+    left: -1px;
+    top: 0;
+    position: absolute;
+    font-size:3.4rem;
+    color: #f34612;
+}
+
+.login__social-gmail a {
+    color: #f34612;
+}
+
 
