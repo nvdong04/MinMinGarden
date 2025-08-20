@@ -31,8 +31,12 @@
     <h1>QR Code Generator</h1>
     <div id="qr-code"></div>
 
-    <script src="app.js">
-        generateQRCode(); // Automatically generate QR code on page load
-    </script> <!-- Your custom JS -->
+    <script src="app.js"></script>
+    <script>
+        window.onload = function() {
+            // Gọi hàm generateQRCode khi toàn bộ trang đã được tải xong
+            generateQRCode();
+        };
+    </script>
 </body>
 </html>
