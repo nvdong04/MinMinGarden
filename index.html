@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>QR Code Generator</title>
-    <script src="https://cdn.jsdelivr.net/npm/qrcode/build/qrcode.min.js"></script> <!-- QR Code Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script> <!-- QR Code Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jsSHA/3.3.1/sha.js" integrity="sha512-RH0XQVwv9KazB3hSYl6pZtf9IlotaWuBIwwYBbq9pGI8hjjiensJAcrjMEZ8vcEQqHubeW3ETIyBN8ymcs3YEg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -28,10 +29,10 @@
 </head>
 <body>
     <h1>QR Code Generator</h1>
-    <input type="text" id="text-input" placeholder="Enter text or URL" />
-    <button onclick="generateQRCode()">Generate QR Code</button>
     <div id="qr-code"></div>
 
-    <script src="app.js"></script> <!-- Your custom JS -->
+    <script src="app.js">
+        generateQRCode(); // Automatically generate QR code on page load
+    </script> <!-- Your custom JS -->
 </body>
 </html>
